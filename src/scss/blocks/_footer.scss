@@ -1,0 +1,23 @@
+.footer {
+    height: 83px;
+    background-color: $main-color;
+    &__divider {
+        border: 1px solid rgba(255, 255, 255, 0.24);
+    }  
+    &__contacts {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type : none;
+        padding-left: 0;
+        a {
+            color: #fff;
+            text-decoration: none;
+            transition: 0.5s all;
+            &:hover {
+                color: rgb(160, 160, 160);
+            }
+        }
+    }
+}
